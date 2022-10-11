@@ -12,6 +12,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainNotification.Domain", "DomainNotification.Domain\DomainNotification.Domain.csproj", "{A36D4D71-C0E7-4251-A711-B57CCDD41475}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainNotification.Application", "DomainNotification.Application\DomainNotification.Application.csproj", "{AF20DDED-7CF7-418B-9B0E-DFE773A10C58}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A36D4D71-C0E7-4251-A711-B57CCDD41475} = {A36D4D71-C0E7-4251-A711-B57CCDD41475}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainNotification.Prompt", "DomainNotification.Prompt\DomainNotification.Prompt.csproj", "{54A7E5BF-9B4C-456B-94D2-112ADCC39553}"
 EndProject
