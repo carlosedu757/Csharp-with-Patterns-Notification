@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿﻿using System.Collections;
 using DomainNotification.Domain.Entities;
 
 namespace DomainNotification.Application.Services
